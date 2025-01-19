@@ -4,7 +4,6 @@ import { motion } from "motion/react";
 interface RootLayoutProps {
   children: ReactNode;
 }
-
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <motion.div
